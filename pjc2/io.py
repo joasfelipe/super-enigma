@@ -1,4 +1,5 @@
-# Se a nota for maior que a média, escreva "aprovado", se não escreva "reprovado".
+# palavra = input("Digite uma palavra: ")
+# print(palavra)
 
 nota = 6.1
 media = 5
