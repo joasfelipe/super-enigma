@@ -1,10 +1,12 @@
 # palavra = input("Digite uma palavra: ")
 # print(palavra)
 
-nota = 6.1
-media = 5
+nota = float(input("Digite uma nota: "))
+media = float(input("Digite uma média: "))
 
 if nota >= media:
-    print("aprovado")
+    print(f"Aprovado com nota {nota}!\n"
+          f"A média é {media}!")
 else:
-    print("reprovado")
+    print(f"Reprovado com nota {nota}!\n"
+          f"A média é {media}!")
